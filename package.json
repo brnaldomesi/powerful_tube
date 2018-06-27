@@ -1,10 +1,10 @@
 {
-  "name": "tubetop",
+  "name": "powertube",
   "version": "0.2.0",
-  "description": "A YouTube music player, for your desktop.",
+  "description": "A YouTube music player written in React & Electron, for your desktop.",
   "main": "build/app.js",
-  "repository": "https://github.com/subnomo/tubetop",
-  "author": "Alex Taylor <alex@alext.xyz>",
+  "repository": "https://github.com/voyager-gold/powertube",
+  "author": "voyager-gold",
   "license": "MIT",
   "scripts": {
     "start": "node fuse",

@@ -214,7 +214,7 @@ export class Player extends React.PureComponent<IProps, IState> {
         currentKey,
       });
 
-      document.title = `${songs[current].title} - tubetop`;
+      document.title = `${songs[current].title} - Powertube`;
 
       // Get song info
       ytdl.getInfo(songs[current].id, (err: any, info: any) => {
@@ -280,7 +280,7 @@ export class Player extends React.PureComponent<IProps, IState> {
   reset = () => {
     this.audio.pause();
     this.audio.currentTime = 0;
-    document.title = 'tubetop';
+    document.title = 'Powertube';
 
     this.setState({
       current: 0,
